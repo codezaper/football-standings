@@ -43,6 +43,24 @@ docker container ps
 
 - Get container id by running below command
 
+  
+## Completed Functionality
+
+- Demonstrated SOLID, 12 Factor and HATEOAS principles, Design Patterns in the design and implementation
+- Demonstrated Performance, Optimization & Security aspects
+- Demonstrated Production readiness of the code
+- Demonstrated sensitive information used in the Micro Services such as API keys are protected / encrypted
+- Included the open-API spec./Swagger to be part of the code.
+- Created a README.md file.
+- Added docker file.
+
+
+## Pending Functionality
+- The solution should support offline mode with toggles : Can be achieved using caching
+- React Page : Will be able to complete within 2 days.
+- Build CI/CD pipeline for your project(s); Pipeline scripts need to be part of the codebase;
+
+
 ```bash
 docker container ps
 ```
