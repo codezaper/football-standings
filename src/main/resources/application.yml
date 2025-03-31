@@ -1,0 +1,16 @@
+server:
+  servlet:
+    context-path: /api/
+
+api:
+  football:
+    baseUrl: https://apiv3.apifootball.com/
+    key: qRnWYE+kGGjj8sPVTWP6uM0+qw2ILxMpMgUPXg/3zzpd3QnSCCCtzDNnSWCUqDDstks8YWN5Ne4e0a+f9PXWPgbmCDtwEKNKAYt/KCklLPjGcExTGVba/rXWRoybrb+q
+    apiSecretKey: publicis
+    apiSecretSalt: jvm
+    retry:
+      delayInMs: 60000
+      maxAttempt: 3
+    timeout:
+      connection: 60
+      read: 60
