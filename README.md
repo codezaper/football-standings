@@ -68,3 +68,4 @@ docker stop [container-id]
 - The solution should support offline mode with toggles : Can be achieved using caching
 - React Page : Will be able to complete within 2 days.
 - Build CI/CD pipeline for your project(s); Pipeline scripts need to be part of the codebase;
+- Seqeunce Diagram using draw.io
