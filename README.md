@@ -42,7 +42,16 @@ docker container ps
 5. Stop Docker container
 
 - Get container id by running below command
+  
+```bash
+docker container ps
+```
 
+- Run below command to stop container
+
+```bash
+docker stop [container-id]
+```
   
 ## Completed Functionality
 
@@ -59,14 +68,3 @@ docker container ps
 - The solution should support offline mode with toggles : Can be achieved using caching
 - React Page : Will be able to complete within 2 days.
 - Build CI/CD pipeline for your project(s); Pipeline scripts need to be part of the codebase;
-
-
-```bash
-docker container ps
-```
-
-- Run below command to stop container
-
-```bash
-docker stop [container-id]
-```
